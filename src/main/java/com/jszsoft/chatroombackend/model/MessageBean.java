@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MessageBean {
+    private String type;
     private String name;
     private String message;
     private String timestamp;

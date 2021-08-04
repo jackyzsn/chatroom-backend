@@ -18,7 +18,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         // In memory springboot broker
-        // registry.enableSimpleBroker("/topic/");
+        // registry.enableSimpleBroker("/topic");
         // registry.setApplicationDestinationPrefixes("/app");
 
         // Use RabbitMQ as broker
